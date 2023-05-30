@@ -6,14 +6,14 @@ import 'package:github_clone/model/repost_model.dart';
 import 'package:github_clone/service/repost_service.dart';
 import 'package:github_clone/view/home/widget/items/repositories_item.dart';
 
-class MyRepositoriesPage extends StatefulWidget {
-  const MyRepositoriesPage({Key? key}) : super(key: key);
+class RepositoriesPage extends StatefulWidget {
+  const RepositoriesPage({Key? key}) : super(key: key);
 
   @override
-  State<MyRepositoriesPage> createState() => _MyRepositoriesPageState();
+  State<RepositoriesPage> createState() => _RepositoriesPageState();
 }
 
-class _MyRepositoriesPageState extends State<MyRepositoriesPage> {
+class _RepositoriesPageState extends State<RepositoriesPage> {
 
   final _controller = Get.put(RepositoriesController());
 
